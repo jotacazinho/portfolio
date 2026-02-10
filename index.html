@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calebi José Batista | Front-End Developer</title>
+    <title>jotacazinho | Dev & Designer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Noise Overlay -->
+    <div class="noise"></div>
+    
+    <!-- Grid Background -->
+    <div class="grid-bg"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-brand">jotacazinho</div>
+            <div class="nav-brand">
+                <span class="glitch" data-text="jotacazinho">jotacazinho</span>
+            </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Início</a></li>
-                <li><a href="#about" class="nav-link">Sobre</a></li>
-                <li><a href="#projects" class="nav-link">Projetos</a></li>
-                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="#home" class="nav-link">_início</a></li>
+                <li><a href="#about" class="nav-link">_sobre</a></li>
+                <li><a href="#projects" class="nav-link">_trabalhos</a></li>
+                <li><a href="#contact" class="nav-link">_contato</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -32,37 +40,86 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <div class="tag-line">&lt;dev_mode&gt;</div>
                 <h1 class="hero-title">
-                    <span class="greeting">Olá, eu sou</span>
-                    <span class="name">Calebi José Batista</span>
+                    <span class="neon-text">CALEBI JOSÉ</span>
+                    <span class="subtitle-neon">Front-End Developer</span>
                 </h1>
-                <p class="hero-subtitle">Front-End Developer</p>
                 <p class="hero-description">
-                    Criando experiências web modernas e atraentes com foco em design minimalista e identidade visual única.
+                    criando experiências digitais com <span class="highlight">código</span> e <span class="highlight">design</span>.
+                    sem limites, sem regras, só <span class="highlight">resultados</span>.
                 </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">03+</span>
+                        <span class="stat-label">projetos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">dedicação</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">criatividade</span>
+                    </div>
+                </div>
                 <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
-                    <a href="#contact" class="btn btn-secondary">Contato</a>
+                    <a href="#projects" class="btn btn-primary">
+                        <span>VER TRABALHOS</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>ENTRE EM CONTATO</span>
+                    </a>
                 </div>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/calebi-jos%C3%A9-batista-5431a33a0/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <a href="https://www.linkedin.com/in/calebi-jos%C3%A9-batista-5431a33a0/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                             <rect x="2" y="9" width="4" height="12"></rect>
                             <circle cx="4" cy="4" r="2"></circle>
                         </svg>
+                        <span>LinkedIn</span>
                     </a>
-                    <a href="https://github.com/jotacazinho" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <a href="https://github.com/jotacazinho" target="_blank" class="social-link" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                         </svg>
+                        <span>GitHub</span>
                     </a>
                 </div>
+                <div class="tag-line tag-close">&lt;/dev_mode&gt;</div>
             </div>
             <div class="hero-visual">
-                <div class="floating-card card-1"></div>
-                <div class="floating-card card-2"></div>
-                <div class="floating-card card-3"></div>
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-red"></span>
+                            <span class="btn-yellow"></span>
+                            <span class="btn-green"></span>
+                        </div>
+                        <div class="terminal-title">terminal@jotacazinho</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span> npm run dev
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓</span> Portfolio iniciado
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓</span> Criatividade: 100%
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span> <span class="cursor">|</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -70,29 +127,70 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
+            <div class="section-header">
+                <span class="section-number">//01</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">[</span>
+                    SOBRE_MIM
+                    <span class="title-bracket">]</span>
+                </h2>
+            </div>
             <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="frame-corner tl"></div>
+                        <div class="frame-corner tr"></div>
+                        <div class="frame-corner bl"></div>
+                        <div class="frame-corner br"></div>
+                        <div class="avatar-placeholder">
+                            <span class="avatar-text">JC</span>
+                        </div>
+                    </div>
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        disponível para projetos
+                    </div>
+                </div>
                 <div class="about-text">
                     <p class="about-intro">
-                        Sou formado em <strong>Desenvolvimento de Sistemas</strong> pela ETEC Dr. Francisco Nogueira de Lima em Casa Branca, SP. Atualmente cursando <strong> Sistemas para Internet na FAC-SP. </strong>
+                        Formado em <span class="text-highlight">Desenvolvimento de Sistemas</span> pela ETEC Dr. Francisco Nogueira de Lima, Casa Branca/SP. 
+                        Atualmente cursando <span class="text-highlight">Sistemas para Internet</span> na FAC-SP.
                     </p>
                     <p>
-                        Nas redes sociais, sou conhecido como <strong>jotacazinho</strong>. Minha paixão é criar interfaces web que combinam funcionalidade com estética moderna e minimalista.
+                        Conhecido nas redes como <span class="text-highlight">@jotacazinho</span>, minha missão é transformar ideias em experiências digitais únicas. 
+                        Não crio sites, eu construo <span class="text-highlight">identidades visuais</span> que contam histórias.
                     </p>
                     <p>
-                        Com experiência em front-end, busco sempre a melhor identidade possível para cada projeto, garantindo que cada página web seja não apenas funcional, mas também visualmente atraente e memorável.
+                        Design minimalista com atitude urbana. Código limpo com personalidade. 
+                        Cada projeto é uma tela em branco esperando para ser <span class="text-highlight">revolucionada</span>.
                     </p>
-                    <div class="skills">
-                        <h3>Tecnologias</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">HTML5</div>
-                            <div class="skill-item">CSS3</div>
-                            <div class="skill-item">JavaScript</div>
-                            <div class="skill-item">Git</div>
-                            <div class="skill-item">Design Responsivo</div>
-                            <div class="skill-item">UI/UX</div>
-                            <div class="skill-item">Node.js</div>
-                            <div class="skill-item">React</div>
+                    <div class="tech-stack">
+                        <h3 class="tech-title">&lt;stack /&gt;</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <div class="tech-icon">HTML5</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">CSS3</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">JS</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">React</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">Node</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">Git</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">UI/UX</div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-icon">Design</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,111 +201,107 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Projetos</h2>
+            <div class="section-header">
+                <span class="section-number">//02</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">[</span>
+                    TRABALHOS
+                    <span class="title-bracket">]</span>
+                </h2>
+            </div>
             <div class="projects-grid">
-                <!-- Project Card 1 -->
+                <!-- Project 1 -->
                 <article class="project-card">
-                 <div class="project-image">
-                    <img src="bortoletoapp.png" alt="Lista de TAREFAS Simples" class="project-img">
-                 </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Carreira de Gabriel Bortoleto</h3>
-                        <p class="project-description">
-                             Página focada em contar a historia de Gabriel Bortoleto, piloto brasileiro de Fórmula 1. A pagina apresenta um design moderno que destaca os momentos mais importantes da carreira de Gabriel.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://bortoleto.netlify.app" target="_blank" class="project-link">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                                Ver Demo
-                            </a>
-                            <a href="https://github.com/jotacazinho/gabi" target="_blank" class="project-link">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                Código
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project Card 2 -->
-                <article class="project-card">
+                    <div class="project-number">01</div>
                     <div class="project-image">
-                        <img src="color-palette-generator.png" alt="Gerador de Paleta de Cores" class="project-img">
+                        <img src="bortoletoapp.png" alt="Gabriel Bortoleto Career">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://bortoleto.netlify.app" target="_blank" class="overlay-btn">
+                                    <span>VER DEMO</span>
+                                </a>
+                                <a href="https://github.com/jotacazinho/gabi" target="_blank" class="overlay-btn">
+                                    <span>CÓDIGO</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Gerador de Paleta de Cores</h3>
-                        <p class="project-description">
-                            Gerador de paletas de cores com algoritmos de harmonia cromática. Inclui 5 esquemas diferentes, sistema de salvamento e copiar cores com um clique.
-                        </p>
                         <div class="project-tags">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
+                            <span class="tag">JS</span>
                         </div>
-                        <div class="project-links">
-                            <a href="https://jotacazinho.github.io/color-palette-generator/" target="_blank" class="project-link">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                                Ver Demo
-                            </a>
-                            <a href="https://github.com/jotacazinho/color-palette-generator" target="_blank" class="project-link">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                Código
-                            </a>
-                        </div>
+                        <h3 class="project-title">GABRIEL BORTOLETO</h3>
+                        <p class="project-description">
+                            Página tribute contando a trajetória do piloto brasileiro Gabriel Bortoleto na F1. 
+                            Design moderno focado em storytelling visual.
+                        </p>
                     </div>
+                    <div class="project-line"></div>
                 </article>
 
-                <!-- Project Card 3 -->
-  <!-- Project Card 3 -->
-<article class="project-card">
-    <div class="project-image">
-        <img src="studyflow.png" alt="StudyFlow App" class="project-img">
-    </div>
-    <div class="project-content">
-        <h3 class="project-title">StudyFlow</h3>
-        <p class="project-description">
-            Aplicativo que utiliza Node e React para organizar estudos, com criação de planos de estudo personalizados, rastreamento de progresso e lembretes. (beta)
-        </p>
-        <div class="project-tags">
-            <span class="tag">Node.js</span>
-            <span class="tag">CSS</span>
-            <span class="tag">React</span>
-        </div>
-        <div class="project-links">
-            <a href="#" target="_blank" class="project-link">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                    <polyline points="15 3 21 3 21 9"></polyline>
-                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                Demo não disponível
-            </a>
-            <a href="https://github.com/jotacazinho/studyflow" target="_blank" class="project-link">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                </svg>
-                Código
-            </a>
-        </div>
-    </div>
-</article>
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-image">
+                        <img src="color-palette-generator.png" alt="Color Palette Generator">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://jotacazinho.github.io/color-palette-generator/" target="_blank" class="overlay-btn">
+                                    <span>VER DEMO</span>
+                                </a>
+                                <a href="https://github.com/jotacazinho/color-palette-generator" target="_blank" class="overlay-btn">
+                                    <span>CÓDIGO</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3 class="project-title">COLOR PALETTE GEN</h3>
+                        <p class="project-description">
+                            Gerador inteligente de paletas com 5 esquemas de harmonia cromática. 
+                            Sistema de salvamento e copy-to-clipboard integrado.
+                        </p>
+                    </div>
+                    <div class="project-line"></div>
+                </article>
 
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-image">
+                        <img src="studyflow.png" alt="StudyFlow App">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="#" class="overlay-btn disabled">
+                                    <span>EM DESENVOLVIMENTO</span>
+                                </a>
+                                <a href="https://github.com/jotacazinho/studyflow" target="_blank" class="overlay-btn">
+                                    <span>CÓDIGO</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">React</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <h3 class="project-title">STUDYFLOW</h3>
+                        <p class="project-description">
+                            App completo para organização de estudos. Planos personalizados, 
+                            tracking de progresso e sistema de lembretes. [beta]
+                        </p>
+                    </div>
+                    <div class="project-line"></div>
+                </article>
             </div>
         </div>
     </section>
@@ -215,33 +309,58 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Vamos Conversar?</h2>
-            <p class="contact-subtitle">Estou sempre aberto a novos projetos e oportunidades</p>
+            <div class="section-header">
+                <span class="section-number">//03</span>
+                <h2 class="section-title">
+                    <span class="title-bracket">[</span>
+                    CONTATO
+                    <span class="title-bracket">]</span>
+                </h2>
+            </div>
             <div class="contact-content">
+                <div class="contact-text">
+                    <h3 class="contact-headline">
+                        VAMOS CRIAR ALGO
+                        <span class="neon-text">INCRÍVEL</span>
+                        JUNTOS?
+                    </h3>
+                    <p class="contact-description">
+                        Estou sempre aberto para discutir novos projetos, ideias criativas ou oportunidades 
+                        de fazer parte da sua visão. Bora conversar?
+                    </p>
+                </div>
                 <div class="contact-links">
-                    <a href="https://www.linkedin.com/in/calebi-jos%C3%A9-batista-5431a33a0/" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <div class="contact-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                <rect x="2" y="9" width="4" height="12"></rect>
-                                <circle cx="4" cy="4" r="2"></circle>
-                            </svg>
+                    <a href="https://www.linkedin.com/in/calebi-jos%C3%A9-batista-5431a33a0/" target="_blank" class="contact-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="card-badge">professional</div>
                         </div>
-                        <div class="contact-info">
-                            <h3>LinkedIn</h3>
-                            <p>Conecte-se comigo</p>
+                        <div class="card-content">
+                            <h4>LinkedIn</h4>
+                            <p>Networking profissional</p>
                         </div>
+                        <div class="card-arrow">→</div>
                     </a>
-                    <a href="https://github.com/jotacazinho" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <div class="contact-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                            </svg>
+                    <a href="https://github.com/jotacazinho" target="_blank" class="contact-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </div>
+                            <div class="card-badge">code</div>
                         </div>
-                        <div class="contact-info">
-                            <h3>GitHub</h3>
-                            <p>Veja meus projetos</p>
+                        <div class="card-content">
+                            <h4>GitHub</h4>
+                            <p>Repositórios e projetos</p>
                         </div>
+                        <div class="card-arrow">→</div>
                     </a>
                 </div>
             </div>
@@ -251,7 +370,18 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Calebi José Batista. Desenvolvido com ❤️</p>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-brand">
+                        <span class="glitch" data-text="jotacazinho">jotacazinho</span>
+                    </div>
+                    <p class="footer-tagline">Código • Design • Criatividade</p>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2026 Calebi José Batista</p>
+                    <p class="footer-made">Feito com <span class="heart">❤</span> e muito <span class="coffee">☕</span></p>
+                </div>
+            </div>
         </div>
     </footer>
 
